@@ -35,6 +35,7 @@ class Server:
         page_range = index_range(page, page_size)
         return self.dataset()[page_range[0]: page_range[1]]
 
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     The function should return a tuple of size two containing a start index and
